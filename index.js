@@ -17,7 +17,7 @@ function checkGuess() {
     } else if (attempts > 0) {
         message.textContent = guess > secretNumber ? `Too high! ${attempts} attempts left.` : `Too low! ${attempts} attempts left.`;
     } else {
-        message.textContent = `😓 Out of attempts! The number was ${secretNumber}.`;
+        message.textContent = `😓 Oppps! Out of attempts! The number was ${secretNumber}.`;
     }
 }
 
